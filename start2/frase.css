@@ -8,3 +8,111 @@
 7 ritardare progressivamente l'animazione delle altre 2 parole 
 */
 
+body {
+  /* font-weight: bold; */
+  font-family: "Bree Serif", serif;
+}
+#testoAlternato {
+  border: 2px solid darkgrey;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 15px;
+  margin: 15px;
+  width: 350px;
+}
+.parole {
+  color: lightskyblue;
+}
+i {
+  opacity: 0;
+  position: absolute;
+  margin-left: 4px;
+}
+
+i:nth-child(1) {
+  transform: rotate(0);
+  transform: translateY(0);
+  animation: step1 6s linear 0s infinite;
+}
+i:nth-child(2) {
+  transform: rotate(0);
+  transform: translateY(0);
+  animation: step2 6s linear 0s infinite;
+}
+i:nth-child(3) {
+  transform: rotate(0);
+  transform: translateY(0);
+  animation: step3 6s linear 0s infinite;
+}
+
+@keyframes step1 {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px) rotateX(90deg);
+  }
+  5% {
+    opacity: 1;
+    transform: translateY(0px) rotateX(0deg);
+  }
+  10% {
+    opacity: 1;
+    transform: translateY(0px) rotateX(0deg);
+  }
+  30% {
+    opacity: 0;
+    transform: translateY(20px) rotateX(-90deg);
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes step2 {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+    transform: translateY(-20px) rotateX(90deg);
+  }
+  45% {
+    opacity: 1;
+    transform: translateY(0px) rotateX(0deg);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0px) rotateX(0deg);
+  }
+  65% {
+    opacity: 0;
+    transform: translateY(20px) rotateX(-90deg);
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes step3 {
+  0% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0;
+    transform: translateY(-20px) rotateX(90deg);
+  }
+  85% {
+    opacity: 1;
+    transform: translateY(0px) rotateX(0deg);
+  }
+  90% {
+    opacity: 1;
+    transform: translateY(0px) rotateX(0deg);
+  }
+  95% {
+    opacity: 0;
+    transform: translateY(20px) rotateX(-90deg);
+  }
+  100% {
+    opacity: 0;
+  }
+}
