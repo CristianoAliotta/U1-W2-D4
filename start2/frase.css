@@ -48,7 +48,7 @@ i:nth-child(3) {
 @keyframes step1 {
   0% {
     opacity: 0;
-    transform: translateY(-20px) rotateX(90deg);
+    transform: translateY(-10px) rotateX(90deg);
   }
   5% {
     opacity: 1;
@@ -60,7 +60,7 @@ i:nth-child(3) {
   }
   30% {
     opacity: 0;
-    transform: translateY(20px) rotateX(-90deg);
+    transform: translateY(10px) rotateX(-90deg);
   }
   100% {
     opacity: 0;
@@ -73,7 +73,7 @@ i:nth-child(3) {
   }
   40% {
     opacity: 0;
-    transform: translateY(-20px) rotateX(90deg);
+    transform: translateY(-10px) rotateX(90deg);
   }
   45% {
     opacity: 1;
@@ -85,7 +85,7 @@ i:nth-child(3) {
   }
   65% {
     opacity: 0;
-    transform: translateY(20px) rotateX(-90deg);
+    transform: translateY(10px) rotateX(-90deg);
   }
   100% {
     opacity: 0;
@@ -98,7 +98,7 @@ i:nth-child(3) {
   }
   80% {
     opacity: 0;
-    transform: translateY(-20px) rotateX(90deg);
+    transform: translateY(-10px) rotateX(90deg);
   }
   85% {
     opacity: 1;
@@ -110,7 +110,7 @@ i:nth-child(3) {
   }
   95% {
     opacity: 0;
-    transform: translateY(20px) rotateX(-90deg);
+    transform: translateY(10px) rotateX(-90deg);
   }
   100% {
     opacity: 0;
