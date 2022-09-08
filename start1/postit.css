@@ -1,10 +1,11 @@
 body {
   font-family: "Indie Flower", cursive;
   height: 100%;
+  background-image: url(https://images.pexels.com/photos/168442/pexels-photo-168442.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
 }
 section {
   display: flex;
-  background-color: #666666;
+  /* background-color: #666666; */
   justify-content: space-around;
   height: 300px;
   padding-top: 40px;
@@ -53,4 +54,5 @@ p {
 .postit:hover {
   transform: rotate(0);
   transform: scale(1.2);
+  z-index: 10;
 }
